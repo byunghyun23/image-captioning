@@ -3,8 +3,8 @@
 ## Introduction
 This is a TensorFlow implementation for Image captioning using Inception-v3 and LSTM.
 
-![image](https://github.com/byunghyun23/image-captioning/blob/main/assets/fig1.png)
-![image](https://github.com/byunghyun23/image-captioning/blob/main/assets/fig2.png)
+![image](https://github.com/byunghyun23/image-captioning/blob/main/assets/fig_1.png)
+![image](https://github.com/byunghyun23/image-captioning/blob/main/assets/fig_2.png)
 
 ## Dataset
 For training the model, you need to download the MS COCO dataset(The name of the json file used in this project is 'MSCOCO_train_val_Korean'.) [link1](https://www.aihub.or.kr/) or [link2](https://cocodataset.org). 
@@ -20,7 +20,7 @@ python download.py
 We use GloVe for Word Embedding.  
 You can get the embedding vector like this
 ```
-embeddings_index.pkl
+--embeddings_index.pkl
 ```
 by running
 ```
@@ -35,17 +35,21 @@ python preprocessing.py
 ```
 The generated files are:
 ```
-idx_to_word.pkl
-word_to_idx.pkl
-train_captions.pkl
-test_captions.pkl
-train_encoding.pkl
-test_encoding.pkl
+--idx_to_word.pkl
+--word_to_idx.pkl
+--train_captions.pkl
+--test_captions.pkl
+--train_encoding.pkl
+--test_encoding.pkl
 ```
 
 ## Train
 ```
 python train.py
+```
+After training, the following model is created.
+```
+--caption_model.h5
 ```
 
 ## Predict
