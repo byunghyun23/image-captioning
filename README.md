@@ -1,2 +1,55 @@
-# image-captioning
-Image Captioning using Inception-v3 and LSTM
+# Image captioning using Inception-v3 and LSTM
+
+## Introduction
+This is a TensorFlow implementation for Image captioning using Inception-v3 and LSTM.
+
+![image](https://github.com/byunghyun23/image-captioning/blob/main/assets/fig1.png)
+![image](https://github.com/byunghyun23/image-captioning/blob/main/assets/fig2.png)
+
+## Dataset
+For training the model, you need to download the MS COCO dataset(The name of the json file used in this project is 'MSCOCO_train_val_Korean'.) [link1](https://www.aihub.or.kr/) or [link2](https://cocodataset.org). 
+
+## Download images
+Before running, you need to create a directory to store data like "data".  
+You can see that the data has been downloaded to the directory you created by running
+```
+python download.py
+```
+
+## Embedding
+We use GloVe for Word Embedding.  
+You can get the embedding vector like this
+```
+embeddings_index.pkl
+```
+by running
+```
+python embedding.py
+```
+
+## Preprocessing
+We obtain the features of images using Inception-v3 and use it as input for learning the captioning model.  
+So you can label image features and captions and you can also get a dataset classified as training and test by running
+```
+python preprocessing.py
+```
+The generated files are:
+```
+idx_to_word.pkl
+word_to_idx.pkl
+train_captions.pkl
+test_captions.pkl
+train_encoding.pkl
+test_encoding.pkl
+```
+
+## Train
+```
+python train.py
+```
+
+## Predict
+You can get the caption of an image by running
+```
+python predict.py [--file_name file_name]
+```
