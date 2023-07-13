@@ -56,5 +56,5 @@ After training, the following model is created.
 ## Predict
 You can get the caption of an image by running
 ```
-python predict.py [--file_name file_name]
+python predict.py --file_name file_name
 ```
