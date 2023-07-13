@@ -19,9 +19,11 @@ python download.py
 
 ## Embedding
 We use GloVe for Word Embedding.  
-You can get the embedding vector like this
+You can get files like this
 ```
 --embeddings_index.pkl
+--information.pkl
+--glove.model
 ```
 by running
 ```
