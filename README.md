@@ -60,3 +60,11 @@ You can get the caption of an image by running
 ```
 python predict.py --file_name file_name
 ```
+
+## Demo
+Also, you can also use the model using Gradio by running
+```
+python web.py
+```
+![image](https://github.com/byunghyun23/image-captioning/blob/main/assets/fig_3.PNG)
+
