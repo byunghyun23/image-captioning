@@ -7,7 +7,7 @@ This is a TensorFlow implementation for Image Captioning using Inception-v3 and 
 ![image](https://github.com/byunghyun23/image-captioning/blob/main/assets/fig_2.png)
 
 ## Dataset
-For training the model, you need to download the MS COCO dataset [link1](https://www.aihub.or.kr/) or [link2](https://cocodataset.org).  
+For training the model, you need to download the MS COCO dataset [link1](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=261) or [link2](https://cocodataset.org).  
 The name of the json file used in this project is MSCOCO_train_val_Korean.
 
 ## Download images
