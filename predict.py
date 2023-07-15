@@ -73,6 +73,7 @@ def run(file_name, model_name):
     plt.rc('font', family='Malgun Gothic')
     plt.imshow(x)
     plt.title(title)
+    plt.axis('off')
     plt.show()
 
     print('Caption:', title)
