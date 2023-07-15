@@ -1,4 +1,4 @@
-# Image Captioning using Inception-v3 and LSTM
+# Image Captioning Using Inception-v3 and LSTM
 
 ## Introduction
 This is a TensorFlow implementation for Image Captioning using Inception-v3 and LSTM.
