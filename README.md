@@ -31,7 +31,7 @@ python embedding.py
 ```
 
 ## Preprocessing
-We obtain the features of images using Inception-v3 and use it as input for learning the captioning model.  
+We obtained the features of images using Inception-v3 and use it as input for learning the captioning model.  
 So you can label image features and captions and you can also get a dataset classified as training and test by running
 ```
 python preprocessing.py
