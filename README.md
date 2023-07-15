@@ -21,9 +21,9 @@ python download.py
 We use GloVe for Word Embedding.  
 You can get files like this
 ```
---embeddings_index.pkl
---information.pkl
---glove.model
+embeddings_index.pkl
+information.pkl
+glove.model
 ```
 by running
 ```
@@ -38,12 +38,12 @@ python preprocessing.py
 ```
 The generated files are:
 ```
---idx_to_word.pkl
---word_to_idx.pkl
---train_captions.pkl
---test_captions.pkl
---train_encoding.pkl
---test_encoding.pkl
+idx_to_word.pkl
+word_to_idx.pkl
+train_captions.pkl
+test_captions.pkl
+train_encoding.pkl
+test_encoding.pkl
 ```
 
 ## Train
