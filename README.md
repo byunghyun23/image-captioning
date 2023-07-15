@@ -52,7 +52,7 @@ python train.py
 ```
 After training, the following model is created.
 ```
---caption_model.h5
+caption_model.h5
 ```
 
 ## Predict
