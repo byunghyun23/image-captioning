@@ -11,7 +11,7 @@ For training the model, you need to download the MS COCO dataset [link1](https:/
 The name of the json file used in this project is MSCOCO_train_val_Korean.
 
 ## Download images
-Before running, you need to create a directory like "data" to store data.
+Before running, you need to create a directory like "data" to store data.  
 You can see that the data has been downloaded to the directory you created by running
 ```
 python download.py
